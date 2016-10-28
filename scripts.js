@@ -1,41 +1,41 @@
 $(document).ready(function(){
 
   console.log("Hello there.");
-  var questionOne = prompt("Do you know your name? Type yes or no.");
+  var questionOne = prompt("Do you like spam? Type yes or no.");
 
   questionOne = questionOne.toLowerCase();
 
   if(questionOne==="yes"){
-    var questionTwo = prompt("What is your name?");
+    var questionTwo = prompt("What do you like on your spam?");
     if(questionTwo!=null){
-      alert("Hello " + questionTwo + ".");
-      alert("Well, we'll just call you Project X for now.");
+      alert("Wow i like spam and " + questionTwo + " too!");
     }
     else if(questionOne==="no"){
-      alert(x="Well, we'll just call you Project X for now.");
+      alert(x="Well, you're really missing out.");
     }
   }
 
-alert("I'm sure you're very confused about what's going on.");
-alert("You've just awoken in the year 2050 after being in cryosleep for the past 34 years.");
+alert("Anyhow, i love spam with everything, however i don't actually have any with me at the moment");
+alert("I'm going to give you chicken instead");
+alert("You look quite shaken")
+alert("I know it was quite overwhelming how i just appeared and offered you a variety of meat");
+alert("But aye, when life gives you lemons you take them right?")
 
 var partTwo = function(){
-  alert("A lot has happened in the past 34 years, Project X.");
-  alert("For starters, Planet Earth has been destroyed and our civilization has moved to another planet.");
-  alert("Through survival of the fittest, our people have begun to adapt to this new world.");
-  alert("New forms of technology have played a pivotal role in our society.");
-  alert("I know this is a lot to process all at once.")
-  var questionFour = prompt(" What would you like to do? Type [1] if you'd like to explore this new planet. Type [2] if you'd like to learn about these new forms of technology. Type [3] if this is too overwhelming and you'd like to be left alone.");
+  alert("Chicken meat gives me wings");
+  alert("You'd think redbull does the same...");
+  alert("But it's just a rumour, you actually need to eat chicken first");
+  var questionFour = prompt(" Would you like to see if you could fly after eating my Chicken and chasing it down with some redbull? Type [1] If yes Type [2] If no Type [3] If you don't trust me.");
 
   if(questionFour==="1"){
-    alert("Alright, here's your space suit.");
-    alert("Be careful out there.");
-    self.location = "https://67.media.tumblr.com/dd24ff2ee928defcc705c19f46ffe933/tumblr_obnne3bUA21qc7q18o1_400.gif"
+    alert("Alright, here's some freshly fried chicken, redbull... eat and drink them together");
+    alert("You should grow some wings any secon...");
+    self.location = "http://orig07.deviantart.net/ad66/f/2013/330/f/2/red_bull_gives_you_wings_by_allygal123-d6vs4hw.gif"
   }
   if(questionFour==="2"){
-    alert("Wonderful.");
-    alert("There is so much to teach you, but I suppose we'll start with the basics.");
-    alert("Our progress as a civilization has relied heavily on things like virtual reality, IOT platforms, and machine learning.");
+    alert("What why?");
+    alert("You only like spam? Common, just try some of my chicken");
+    alert("Flying is really fun, you'll learn how your wings work in no time");
     var questionSeven = prompt("What would you like to learn more about? Type [1] for Virtual Reality, [2] for IOT, and [3] for Machine Learning.");
   }
   if(questionSeven==="1"){
@@ -61,21 +61,21 @@ var partTwo = function(){
   }
 
   if(questionFour==="3"){
-    alert("I see...");
-    var questionFive = prompt("Would you like me to come back another time, Project X?");
+    alert("I see... Well i'd be lying if i said i wasn't hurt; i'm an honest man");
+    var questionFive = prompt("Would you like me to come back with spam another time?");
   }
   if(questionFive==="yes"){
-    alert("Alright, rest easy.");
-    self.location = "https://67.media.tumblr.com/b899e9b349cdb21b5fbc1bcb142f9505/tumblr_o3f7ecqVgH1rxx1vlo1_500.gif"
+    alert("Alright, until then, enjoy your day.");
+    self.location = "http://graphics.desivalley.com/wp-content/uploads/2010/09/enjoy-commentsdesivalleycom-2.gif"
   }
   if(questionFive==="no"){
-    alert("Then I'm not so sure what to do with you, Project X.")
-    var questionSix = prompt("Type [1] if you want to venture on your own. Type [2] if you want me to put you back into cryosleep and wake you up in a few more years.");
+    alert("Then I'm not so sure what to do with you.")
+    var questionSix = prompt("Type [1] if you think you already can fly. Type [2] if you want me to leave you alone.");
   }
   if(questionSix==="1"){
     alert("If you insist.");
-    alert("Good luck out there.");
-    window.location = "https://www.youtube.com/watch?v=vT7vD8uAGEQ"
+    alert("Good luck.");
+    window.location = "https://neatspartan.files.wordpress.com/2015/05/stick-man-jumping-over-drop1.gif"
   }
   if(questionSix==="2"){
     alert("Until next time.");
@@ -84,7 +84,7 @@ var partTwo = function(){
   return
 };
 
-var questionThree = prompt("Do you need a moment to collect yourself, Project X? Yes or no.");
+var questionThree = prompt("Do you need a moment to collect yourself? Yes or no.");
 questionThree = questionThree.toLowerCase();
 if(questionThree==="yes"){
   setTimeout(function(){
